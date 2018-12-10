@@ -3,8 +3,7 @@
 Created on Wed Nov 14 13:38:07 2018
 
 @author: bhuwan.madhikarmi
-Reference : 
-https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/
+
 """
 
 # Importing libraries
@@ -166,3 +165,7 @@ print(neigh.predict(test))
 # 3 nearest neighbors
 print(neigh.kneighbors(test)[1])
 #-> [[141 139 120]]    
+"""
+Reference : 
+https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/
+"""
